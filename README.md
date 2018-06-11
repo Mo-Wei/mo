@@ -1,1 +1,1 @@
-# mo
+# Responsive Simple Personal Personal Blog Template
