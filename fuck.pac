@@ -5,12 +5,12 @@
 
 var proxy = 'SOCKS5 127.0.0.1:1080';
 var rules = [
-    [
-        [],
-        []
-    ],
-    [
-        [
+[
+      [
+            "douyu.com",
+            "",
+            "",
+            "",
             "aftygh.gov.tw",
             "aide.gov.tw",
             "aliyun.com",
@@ -89,8 +89,8 @@ var rules = [
             "yda.gov.tw",
             "youdao.com",
             "zhongsou.com"
-        ],
-        [
+      ],
+      [
             "030buy.com",
             "0rz.tw",
             "1-apple.com.tw",
@@ -5570,9 +5570,8 @@ var rules = [
             "zzcartoon.com",
             "zzcloud.me",
             "zzux.com"
-        ]
-    ]
-];
+      ]
+]];
 
 var lastRule = '';
 
