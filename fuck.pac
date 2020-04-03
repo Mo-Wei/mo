@@ -8,7 +8,7 @@ var rules = [
 [
       [
             "douyu.com",
-            "aliyun.com",
+            "",
             "",
             "",
             "aftygh.gov.tw",
