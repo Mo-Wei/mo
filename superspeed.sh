@@ -249,13 +249,13 @@ runtest() {
 		echo "ID    测速服务器信息       上传/Mbps   下载/Mbps   延迟/ms"
 		start=$(date +%s) 
 
-		 speed_test '3633'	'上海'	'电信'
-		 speed_test '29026'	'成都' 	'电信'
-		 speed_test '29071'	'成都' 	'电信'
-		 speed_test '27810' '南宁' 	'电信'
-		 speed_test '7509'	'杭州' 	'电信'
-		 speed_test '23844' '武汉' 	'电信'
-		 speed_test '19076'	'重庆' 	'电信'
+		 speed_test '3633' '上海' '电信'
+		 speed_test '29026' '四川成都' '电信'
+		 speed_test '29071' '四川成都' '电信'
+		 speed_test '27810' '广西南宁' '电信'
+		 speed_test '7509' '浙江杭州' '电信'
+		 speed_test '23844' '湖北武汉' '电信'
+		 speed_test '19076' '重庆' '电信'
 
 		end=$(date +%s)  
 		rm -rf speedtest*
